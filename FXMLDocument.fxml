@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="465.0" prefWidth="551.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment3.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TextField fx:id="text1" layoutX="142.0" layoutY="74.0" prefHeight="25.0" prefWidth="305.0" />
+      <TextField fx:id="text2" layoutX="145.0" layoutY="129.0" prefHeight="25.0" prefWidth="299.0" />
+      <TextField fx:id="text3" layoutX="149.0" layoutY="191.0" prefHeight="25.0" prefWidth="292.0" />
+      <Label layoutX="27.0" layoutY="74.0" prefHeight="17.0" prefWidth="52.0" text="number 1" />
+      <Label layoutX="27.0" layoutY="129.0" text="number 2" />
+      <Label layoutX="33.0" layoutY="191.0" text="output" />
+      <Button layoutX="27.0" layoutY="250.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="43.0" text="+">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="105.0" layoutY="248.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="17.0" prefWidth="43.0" text="-">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="187.0" layoutY="251.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="43.0" text="*" />
+      <Button layoutX="260.0" layoutY="251.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="43.0" text="&gt;" />
+      <Button layoutX="338.0" layoutY="251.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="43.0" text="&lt;">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="411.0" layoutY="250.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="43.0" text="==" />
+      <Button layoutX="135.0" layoutY="330.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Compute" />
+      <Button layoutX="295.0" layoutY="330.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Quit" />
+      <TextField fx:id="text4" layoutX="457.0" layoutY="99.0" prefHeight="85.0" prefWidth="80.0" />
+    </children>
+</AnchorPane>
